@@ -3,3 +3,125 @@
    padding: 0;
    box-sizing: border-box;
 }
+
+body {
+   color: #333;
+   font-family: 'Space Mono', monospace;
+}
+
+a {
+   color: #333;
+   text-decoration: none;
+}
+
+// font-family: 'Inconsolata', monospace;
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Space Mono', monospace;
+
+.wrapper {
+   width: 100%;
+   max-width: 1200px;
+
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 24px;
+   padding-right: 24px;
+}
+
+.grid {
+   display: grid;
+}
+
+#header {
+   .wrapper {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      .logo-container {
+         a {
+            display: inline-flex;
+
+            font-size: 24px;
+            font-weight: 700;
+            font-family: 'Inconsolata', monospace;
+
+            line-height: 25.18px;
+            letter-spacing: -0.08em;
+            text-transform: uppercase;
+         }
+      }
+   }
+}
+
+#error {
+   .wrapper {
+      min-height: 100vh;
+      .error-image-container {
+         margin-top: 64px;
+         margin-bottom: 60px;
+         img {
+            width: 100%;
+            max-width: 100%;
+         }
+      }
+      .error-texts-container {
+         .headings {
+            margin-bottom: 30px;
+            h1 {
+               font-size: 3rem;
+               font-weight: 700;
+   
+               line-height: 71px;
+               letter-spacing: -0.035em;
+            }
+         }
+         .texts {
+            margin-bottom: 66px;
+            p {
+               font-size: 18px;
+               line-height: 27px;
+               letter-spacing: -0.035em;
+            }
+         }
+         .btn-container {
+            a {
+               padding: 24px 43px;
+
+               font-size: 14px;
+               font-weight: 700;
+               line-height: 21px;
+   
+               display: inline-flex;
+   
+               text-transform: uppercase;
+   
+               color: #FFF;
+               background-color: #333;
+            }
+         }
+      }
+   }
+}
+
+#footer {
+   .wrapper {
+      padding-top: 24px;
+      padding-bottom: 24px;
+
+      margin-top: 114px;
+      .credits {
+         p {
+            font-size: 14px;
+            font-weight: 500;
+            font-family: 'Montserrat', sans-serif;
+
+            text-align: center;
+            line-height: 17px;
+
+            color: #BDBDBD;
+            a {
+               font-weight: 700;
+            }
+         }
+      }
+   }
+}
