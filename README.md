@@ -59,5 +59,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://webdevjo.github.io)
-- GitHub [@your-username](https://github.com/webdevjo})
+- Website [webdevjo](https://webdevjo.github.io)
+- GitHub [@webdevjo](https://github.com/webdevjo})
