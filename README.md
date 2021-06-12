@@ -60,4 +60,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Contact
 
 - Website [webdevjo](https://webdevjo.github.io)
-- GitHub [@webdevjo](https://github.com/webdevjo})
+- GitHub [@webdevjo](https://github.com/webdevjo)
